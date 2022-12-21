@@ -1,5 +1,5 @@
 module Staccato::V4
-  class ViewItemList
+  class CustomEvent
     FIELDS = [
     ]
 
