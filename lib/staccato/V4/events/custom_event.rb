@@ -15,8 +15,7 @@ module Staccato::V4
     end
 
     def fields(fields=nil)
-      fields.to_a
-      FIELDS = fields.to_a
+      return fields.to_a
     end
 
     include Event
